@@ -1,5 +1,3 @@
-# Amazon-Macie-to-Detect-Sensitive-Data-in-a-S3-Bucket
-Amazon Macie
 # Using Amazon Macie to detect Sensitive Data in S3 buckets
 
 ## Introduction
