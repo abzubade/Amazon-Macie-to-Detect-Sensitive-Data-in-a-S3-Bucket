@@ -19,11 +19,11 @@ python3 -m pip install --user --quiet boto3 && \
 python3 setup_lab.py && \
 cd "$WORKDIR"
 
-2. Created the S3 bucket 
-aws s3 mb s3://my-new-bucket-name
+2. Created the S3 bucket:
+<br> aws s3 mb s3://my-new-bucket-name
 
 3. Copied contents into S3 bucket
-aws s3 cp ./data s3://macie-devlab-anz-dba/ --recursive
+<br> aws s3 cp ./data s3://macie-devlab-anz-dba/ --recursive
 
 4. Now that we have the S3 bucket. next we'll create a Macie Job, this job will analyze objects in any number of S3 buckets in this account to detect sensitive data.
 
